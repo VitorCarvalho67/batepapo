@@ -1,5 +1,7 @@
 #BatePapo
 
+#Link: http://faleaquiweb.infinityfreeapp.com/index.php
+
 BatePapo é um aplicativo de bate-papo em tempo real criado com PHP, SQL e JavaScript.
 Pré-requisitos
 
@@ -9,7 +11,7 @@ Antes de começar, você precisará ter as seguintes ferramentas instaladas em s
     PHP versão 7.0 ou superior
     Banco de dados MySQL
 
-Instalação
+#Instalação
 
 Para instalar o aplicativo, siga as instruções abaixo:
 
@@ -19,7 +21,7 @@ Para instalar o aplicativo, siga as instruções abaixo:
     Abra o arquivo "config.php" e insira as informações de conexão com o banco de dados.
     Abra o navegador da web e acesse o aplicativo.
 
-Uso
+#Uso
 
 O aplicativo de bate-papo é fácil de usar. Os usuários devem se registrar e fazer login para usar o chat. Sem fazer login, o usuário pode selecionar uma sala de bate-papo e conversar com outros usuários na mesma sala. O aplicativo também permite enviar mensagens privadas e visualizar as mensagens anteriores na sala de bate-papo.
 Contribuição
