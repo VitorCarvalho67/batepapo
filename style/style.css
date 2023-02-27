@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: black;
+    color: #ffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.conteudo{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.mensagem{
+    height: 90vh;
+    width: 500px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #007d25 #000000;
+}
+
+form{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+form input{
+    outline: none;
+    border: 1px green solid;
+    background-color: transparent;
+    padding-left: 3px;
+    color: green;
+}
+
+.texto p{
+    color: green;
+    padding: 3px;
+    margin: 5px;
+    border: solid green 1px;
+}
+
+.cubo-box{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cubo{
+    animation: cubo 10s linear infinite;
+    transform-style: preserve-3d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#face{
+    box-shadow: inset 0px 0px 80px green;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border: solid 2px white;
+    border-radius: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.face2{
+    transform: translateX(75px) translateZ(75px) rotateY(90deg);
+}
+
+.face3{
+    transform: translateY(-75px) translateZ(75px) rotateX(90deg);
+}
+
+.face4{
+    transform: translateX(-75px) translateZ(75px) rotateY(90deg);
+}
+
+.face5{
+    transform: translateY(75px) translateZ(75px) rotateX(90deg);
+}
+
+.face6{
+    transform: translateZ(150px);
+}
+
+@keyframes cubo {
+    0%{
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+    100%{
+        transform: rotateX(0deg) rotateY(360deg) rotateZ(360deg);
+    }
+}
